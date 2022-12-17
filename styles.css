@@ -179,10 +179,12 @@ nav {
 .gallery .house img {
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .gallery .veindeer img {
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 
 }
 
