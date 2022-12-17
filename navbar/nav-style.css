@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 247, 216);
+
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: #f05051;
+}
+
+
+header ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Style Hamburger icon so it doesn't display unless on mobile, and cursor pointer allows  you to click on it */
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+/* style bars on the hamburger icon */
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: grey;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Java animation for hamburger bar */
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+/* style mobile menu */
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+/* position mobile menu */
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+/* Media query for things that happen when the screen is less than 600px wide */
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+}
