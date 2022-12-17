@@ -268,3 +268,13 @@ nav {
    column-count:        1;
   }
  }
+
+ .loops-gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .loops-gallery img {
+  padding: 4rem;
+ }
