@@ -14,11 +14,15 @@ header a {
 
 header {
   padding: 0 20px;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(236, 247, 216);
 
+
+}
+
+hr {
+  width: 100%; margin-left: auto; margin-right: auto; height: 7px; background-color:#ff431f ; opcaity: 0;
 }
 
 #brand {
@@ -30,7 +34,7 @@ header {
 }
 
 #brand a {
-  color: #f05051;
+  color: #ff431f;
 }
 
 
@@ -45,6 +49,7 @@ header ul {
 ul li {
   padding: 0 10px;
   margin-left: 10px;
+  color: #ff431f;
 }
 
 ul li:hover {
