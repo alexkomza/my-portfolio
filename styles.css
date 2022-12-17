@@ -91,7 +91,7 @@ a.current
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: grey;
+  background-color: #ff431f;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -123,11 +123,11 @@ a.current
 .mobile-menu {
   display: none;
   position: absolute;
-  top: 50px;
+  top: 104px;
   left: 0;
-  height: calc(50vh - 50px);
+  height: calc(25vh - 50px);
   width: 100%;
-  background-color: rgb(213, 233, 213);
+  background-color: white;
   
 }
 
