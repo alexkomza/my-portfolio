@@ -57,6 +57,22 @@ ul li:hover {
   transition: 0.3s;
 }
 
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color:  #ff431f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.current
+ {
+  color: #3b34d5;
+}
+
 /* Style Hamburger icon so it doesn't display unless on mobile, and cursor pointer allows  you to click on it */
 #hamburger-icon {
   margin: auto 0;
