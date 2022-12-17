@@ -64,9 +64,9 @@ a:active {
   color:  #ff431f;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 a.current
  {
