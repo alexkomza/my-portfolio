@@ -96,9 +96,10 @@ ul li:hover {
   position: absolute;
   top: 50px;
   left: 0;
-  height: calc(100vh - 50px);
+  height: calc(50vh - 50px);
   width: 100%;
   background-color: rgb(213, 233, 213);
+  
 }
 
 /* Media query for things that happen when the screen is less than 600px wide */
