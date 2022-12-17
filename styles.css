@@ -1,4 +1,4 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300;1,500;1,700&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); </style>
 
 
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
 header a {
@@ -26,7 +26,7 @@ header {
 
 #brand {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -40,13 +40,13 @@ header {
 header ul {
   display: flex;
   list-style: none;
-  height: 100%;
+ 
   align-items: center;
   justify-content: space-around;
 }
 
 ul li {
-  padding: 5px;
+  padding: 0 10px;
   margin-left: 10px;
 }
 
