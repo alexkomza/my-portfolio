@@ -157,19 +157,19 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.house > div {
+/* .house > div {
   flex: 1 1 400px
-}
+} */
 
 .veindeer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.veindeer > div {
+/* .veindeer > div {
   flex: 1 1 400px;
 }
-
+ */
 .thumb {
   padding: 0.5rem;
 }
@@ -186,7 +186,7 @@ nav {
 
 .project-title {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .project-title h2 {
@@ -206,7 +206,7 @@ nav {
   .house, .veindeer {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1em;
-    grid-row-gap: 100px;
+    padding: 10px;
+    grid-row-gap: 10px;
   }
 }
