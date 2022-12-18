@@ -380,3 +380,7 @@ nav {
  .social-media {
   margin-left: 50px;
  }
+ 
+ .social-media a {
+  padding: 10px;
+ }
