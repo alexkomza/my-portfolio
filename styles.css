@@ -46,6 +46,7 @@ hr {
 }
 
 
+
 header ul {
   display: flex;
   list-style: none;
@@ -317,10 +318,11 @@ nav {
   max-width: 600px;
  }
 
- .iframe {
+/*  .iframe {
   
   max-width: 600px;
   max-height: 600px;
+  min-width: 600px;
   width: 100%;
   padding: 2rem;
- }
+ } */
