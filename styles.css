@@ -45,6 +45,13 @@ hr {
   margin-top: 10px;
 }
 
+.brand-upper a {
+  letter-spacing: 10px;
+}
+.brand-lower a {
+  letter-spacing: 2.7px;
+}
+
 
 
 header ul {
