@@ -360,6 +360,7 @@ nav {
   margin: 50px;
   margin-left: 100px;
   margin-bottom: 0;
+  display: flex;
 
 }
 
@@ -374,4 +375,8 @@ nav {
     padding-top: 50px;
   
   }
+ }
+
+ .social-media {
+  margin-left: 50px;
  }
