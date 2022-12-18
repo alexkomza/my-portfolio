@@ -386,3 +386,22 @@ nav {
  .social-media a {
   padding: 10px;
  }
+
+ .container-forest {
+  padding: 30px;
+ }
+
+ .forest-p1, .forest-p2 {
+  margin-bottom: 40px;
+ }
+
+.forest-videos {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forest-videos div {
+  padding-bottom: 30px;
+}
