@@ -307,5 +307,18 @@ nav {
  }
 
  .loops-gallery img {
-  padding: 4rem;
+  padding: 2rem;
+ }
+
+ .gif {
+  width: 100%;
+  max-width: 600px;
+ }
+
+ .iframe {
+  
+  max-width: 600px;
+  max-height: 600px;
+  width: 100%;
+  padding: 2rem;
  }
