@@ -349,6 +349,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex: 1;
 }
 
 .contact-upper {
@@ -361,10 +362,13 @@ nav {
   margin-left: 100px;
   margin-bottom: 0;
   display: flex;
+  flex-wrap: wrap;
 
 }
 
-
+.email {
+  margin-right: 50px;
+}
 .contact-image img {
   padding: 100px;
   height: 100vh;
@@ -375,11 +379,10 @@ nav {
     padding-top: 50px;
   
   }
+
  }
 
- .social-media {
-  margin-left: 50px;
- }
+
  
  .social-media a {
   padding: 10px;
