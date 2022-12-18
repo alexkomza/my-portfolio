@@ -344,3 +344,34 @@ nav {
   text-align: center;
  }
 }
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-upper {
+  margin: 50px;
+  margin-left: 100px;
+}
+
+.contact-lower {
+  margin: 50px;
+  margin-left: 100px;
+  margin-bottom: 0;
+
+}
+
+
+.contact-image img {
+  padding: 100px;
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  .contact-image img {
+    padding-top: 50px;
+  
+  }
+ }
