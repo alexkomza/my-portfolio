@@ -23,7 +23,7 @@ header {
 }
 
 hr {
-  width: 100%; margin-left: auto; margin-right: auto; height: 4px; background-color:#ff431f ; opcaity: 0;
+  width: 100%; margin-left: auto; margin-right: auto; height: 4px; background-color:#ff431f ; color:#ff431f; opcaity: 0;
 }
 
 .brand-upper, .brand-lower {
