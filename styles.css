@@ -374,6 +374,7 @@ nav {
   margin-right: 50px;
   padding-bottom: 40px;
 }
+
 .contact-image img {
   padding: 100px;
   height: 100vh;
@@ -389,6 +390,11 @@ nav {
  
  .social-media a {
   padding: 10px;
+ }
+
+ .social-media a img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
  }
 
  .container-forest {
@@ -467,4 +473,9 @@ nav {
 
 .footer-social a img {
   padding: 0 10px;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
