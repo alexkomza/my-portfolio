@@ -440,3 +440,27 @@ nav {
   padding: 30px;
 }
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 10px;
+}
+
+.footer-upper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-upper ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer-social a img {
+  padding: 0 10px;
+}
