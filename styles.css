@@ -22,9 +22,13 @@ header {
 
 }
 
-hr {
-  width: 100%; height: 4px; background-color:#ff431f ; color:#ff431f;
-}
+/* hr {
+  width: 100%; height: 4px; background-color:#ff431f ; border-color:#ff431f; color: #ff431f;
+} */
+
+hr { width: 100%; height: 1px;
+  border: 0; border-top: 3px solid #ff431f;
+  margin: 1em 0; padding: 0; }
 
 .brand-upper, .brand-lower {
   font-weight: bold;
