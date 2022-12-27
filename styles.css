@@ -197,19 +197,21 @@ nav {
     padding: 20px;
 }
 
-.house {
+.house,
+.veindeer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 }
 
 /* .house > div {
   flex: 1 1 400px
 } */
 
-.veindeer {
+/* .veindeer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 /* .veindeer > div {
   flex: 1 1 400px;
